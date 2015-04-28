@@ -1,0 +1,95 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-bottom: 50px;
+}
+.bs-docs-masthead,
+.bs-docs-header {
+  color: #cdbfe3;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #6f5499;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#563d7c), to(#6f5499));
+  background-image: -webkit-linear-gradient(top, #563d7c 0, #6f5499 100%);
+  background-image: -o-linear-gradient(top, #563d7c 0, #6f5499 100%);
+  background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+  background-repeat: repeat-x;
+}
+.bs-docs-masthead h1 {
+  font-weight: 500;
+}
+.page-header {
+  text-align: left;
+}
+#github {
+  display: none;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  right: 0;
+  z-index: 2000;
+}
+.bottom {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.hljs {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  #github {
+    display: block;
+  }
+}
+.btn-large{
+  width: 500px;
+}
+.table-responsive{
+  padding: 30px
+}
+.hover{
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -80px;
+    left:-30px;
+    display:none;
+    padding:0 20px;
+
+}
+.hover:after{
+    content:'';
+    position:absolute;
+    bottom:-10px;
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #dfdfdf;
+    border-right:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-5px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+p{
+    margin:100px;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
+
+p:hover hover{
+    display:block;
+}
